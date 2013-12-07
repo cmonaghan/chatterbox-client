@@ -2,7 +2,7 @@
 //ajax call to GET parse server to fetch messages
 var getMessage = function() {
   $.ajax({
-    url: 'https://api.parse.com/1/classes/chatterbox?order=-createdAt',
+    url: 'http://127.0.0.1:8080',
     type: 'GET',
     contentType: 'application/json',
     //once messages are returned from the server, runs displayMessages function defined below
